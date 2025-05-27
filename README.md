@@ -6,30 +6,30 @@ This is a Ruby on Rails 8 API-only application built for a WebOps task. It offer
 # FEATURES 
   ## Authentication & Authorization
   
-  -[JWT-Based Authentication]
+  JWT-Based Authentication
   
-  -[Secure login/signup with email and password]
+  Secure login/signup with email and password
   
-  -[All API routes require a valid JWT token]
+  All API routes require a valid JWT token
   
   User Model Fields
   
-    -[name]
+     name
     
-    -[email]
+     email
     
-    -[password_digest]
+     password_digest
     
-    -[image (optional)]
+    image (optional)
   
   ## Post Management
   Post Model Fields
-    -[title]
-    -[body]
-    -[user_id (author)]
-    -[tags (at least one required)]
-    -[Auto-expiry: posts are deleted 24 hours after creation via background job]
-    -[CRUD Capabilities]
+    title
+    body
+    user_id (author)
+    tags (at least one required)
+    Auto-expiry: posts are deleted 24 hours after creation via background job
+    CRUD Capabilities
   
   ## Create, update, and delete (only your own posts).
   ## Add/update tags dynamically.
