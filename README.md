@@ -5,10 +5,15 @@ This is a Ruby on Rails 8 API-only application built for a WebOps task. It offer
 
 # FEATURES 
   ## Authentication & Authorization
+  
   -[JWT-Based Authentication]
+  
   -[Secure login/signup with email and password]
+  
   -[All API routes require a valid JWT token]
+  
   User Model Fields
+  
     -[name]
     
     -[email]
