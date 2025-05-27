@@ -41,7 +41,6 @@ This is a Ruby on Rails 8 API-only application built for a WebOps task. It offer
   # Commenting
   
    - Users can comment on any post.
-   - 
    - Only comment authors can update or delete their comments.
  
 
