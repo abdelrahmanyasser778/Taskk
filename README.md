@@ -39,24 +39,28 @@ This is a Ruby on Rails 8 API-only application built for a WebOps task. It offer
   ## Posts auto-deleted via background job (demo below).
   
   # Commenting
-   ## Users can comment on any post.
-   ## Only comment authors can update or delete their comments.
+  ```bash
+   -Users can comment on any post.
+   -Only comment authors can update or delete their comments.
+ ```
 
 
 ## Technology Stack
-
-  Backend: Ruby on Rails 8 (API mode)
-  Database: PostgreSQL
-  Authentication: JWT
-  Background Jobs: Sidekiq
-  Containerization: Docker & Docker Compose
+```bash
+  -Backend: Ruby on Rails 8 (API mode)
+  -Database: PostgreSQL
+  -Authentication: JWT
+  -Background Jobs: Sidekiq
+  -Containerization: Docker & Docker Compose
+```
 
 ## Setup Instructions
-
+```bash
 git clone https://github.com/abdelrahmanyasser778/Taskk.git
 
 cd Taskk
 
-run `docker-compose up` 
+run `docker-compose up`
+```
 
 
