@@ -34,25 +34,30 @@ This is a Ruby on Rails 8 API-only application built for a WebOps task. It offer
     tags (at least one required)
     
   
-  ## Create, update, and delete (only your own posts).
-  ## Add/update tags dynamically.
-  ## Posts auto-deleted via background job (demo below).
+  - Create, update, and delete (only your own posts).
+  - Add/update tags dynamically.
+  - Posts auto-deleted via background job (demo below).
   
   # Commenting
-  ```bash
-   -Users can comment on any post.
-   -Only comment authors can update or delete their comments.
- ```
+  
+   - Users can comment on any post.
+   - 
+   - Only comment authors can update or delete their comments.
+ 
 
 
 ## Technology Stack
-```bash
-  -Backend: Ruby on Rails 8 (API mode)
-  -Database: PostgreSQL
-  -Authentication: JWT
-  -Background Jobs: Sidekiq
-  -Containerization: Docker & Docker Compose
-```
+
+  - Backend: Ruby on Rails 8 (API mode)
+  
+  - Database: PostgreSQL
+  
+  - Authentication: JWT
+  
+  - Background Jobs: Sidekiq
+  
+  - Containerization: Docker & Docker Compose
+
 
 ## Setup Instructions
 ```bash
