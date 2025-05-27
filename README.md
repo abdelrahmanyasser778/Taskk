@@ -1,5 +1,5 @@
 # README
-
+## Scope
 This is a Ruby on Rails 8 API-only application built for a WebOps task. It offers a full-featured backend for user authentication, post management with tagging, and nested commenting. The app is containerized with Docker, uses JWT for secure access.
 
 
