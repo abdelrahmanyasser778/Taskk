@@ -10,8 +10,11 @@ This is a Ruby on Rails 8 API-only application built for a WebOps task. It offer
   -[All API routes require a valid JWT token]
   User Model Fields
     -[name]
+    
     -[email]
+    
     -[password_digest]
+    
     -[image (optional)]
   
   ## Post Management
