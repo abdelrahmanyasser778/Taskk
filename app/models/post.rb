@@ -15,6 +15,6 @@ class Post < ApplicationRecord
   end
 
   def schedule_deletion
-    DeleteOldPostsJob.perform_in(5.seconds, self.id)
+    DeleteOldPostsJob.perform_in(24.hours, self.id)
   end
 end
