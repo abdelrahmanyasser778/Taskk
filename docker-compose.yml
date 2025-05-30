@@ -45,6 +45,8 @@ services:
     volumes:
       - storage:/app/storage
     command: ["bundle", "exec", "sidekiq"]
+    tty: true               
+    stdin_open: true        
 
 volumes:
   postgres_data:
